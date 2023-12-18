@@ -1,0 +1,18 @@
+{
+  "name": "cypress1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "chromeh": "cypress run --browser chrome --headed",
+    "chromehl": "cypress run --browser chrome --headless",
+    "firefoxh": "cypress run --browser firefox --headed",
+    "firefoxhl": "cypress run --browser firefox --headless"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^13.6.1"
+  }
+}
